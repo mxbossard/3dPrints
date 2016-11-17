@@ -1,8 +1,8 @@
 $fn=50;
 
 // global sizes
-ep = 3;
-l = 90;
+ep = 2;
+l = 87;
 p = 40;
 h = 40;
 br = 4; // border
