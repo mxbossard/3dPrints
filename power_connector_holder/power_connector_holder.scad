@@ -12,11 +12,11 @@ sw_l = 19.5;
 sw_h = 13;
 
 // power connector sizes
-pc_l1 = 17;
-pc_l2 = 5;
+pc_l1 = 17.5;
+pc_l2 = 5.5;
 pc_l = pc_l1 + 2 * pc_l2;
-pc_h1 = 14;
-pc_h2 = 5;
+pc_h1 = 14.5;
+pc_h2 = 5.5;
 pc_h = pc_h1 + pc_h2;
 pc_dd = 3; // drill diameter
 pc_de = 40; // drill entraxe
