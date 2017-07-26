@@ -14,8 +14,8 @@ holder_inner_width=18;
 holder_inner_height=30;
 
 tab_height=20;
-tab_hole_r=15;
-tab_drill_border=10;
+tab_hole_r=14;
+tab_drill_border=15;
 
 drill_r=2;
 
@@ -95,7 +95,7 @@ module tab() {
             }
         }
         translate([thickness, 0, 0]) {
-            tab_drill(tab_hole_r + 2, drill_r, tab_drill_border);
+            tab_drill(tab_hole_r + 2, drill_r * 2, tab_drill_border);
         }
     }
 }
