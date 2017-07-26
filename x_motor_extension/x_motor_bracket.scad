@@ -1,6 +1,6 @@
 $fn=50;
 
-thickness=2;
+thickness=3;
 body_width=70;
 body_length=40;
 
@@ -26,11 +26,13 @@ holder_length=holder_inside + 2*thickness;
 holder_base_length=holder_length + 10;
     
 module body() {
-    difference() {
-        cube([body_length, body_width, thickness]);
-        holder_drills();
-    }
-    
+    translate([0, 2, 0])
+        difference() {
+            cube([body_length, body_width, thickness]);
+            holder_drills();
+        }
+    cube([step_length, 2, thickness]);
+        
     tab();
         
     translate([thickness, 0, 0])
