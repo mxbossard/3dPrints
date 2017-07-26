@@ -17,7 +17,7 @@ tab_height=20;
 tab_hole_r=15;
 tab_drill_border=10;
 
-drill_r=1.5;
+drill_r=2;
 
 
 
